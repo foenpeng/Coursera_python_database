@@ -1,3 +1,6 @@
+## This program runs locally to extract sender domain information from an email box, then 
+## count the frequency of this sender domain and deposit it into an sqlite database.
+
 import sqlite3
 
 conn = sqlite3.connect('emaildb.sqlite')
