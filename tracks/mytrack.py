@@ -1,3 +1,5 @@
+# This program extract music information from a local xml file and deposit those information into an relatinoal database.
+
 import sqlite3
 import xml.etree.ElementTree as ET
 
